@@ -10,6 +10,7 @@ public class newTest {
 		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
 		WebDriver driver =new ChromeDriver();
 		driver.get("http://www.gmail.com");
+		driver.close();
 	}
 
 }
